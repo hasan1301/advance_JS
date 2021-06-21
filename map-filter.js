@@ -1,3 +1,5 @@
+// map
+
 let numbers = [2, 3, 4, 5, 6]
 let output = []
 
@@ -24,6 +26,6 @@ let result2 = numbers.map(x => x * x)
 
 console.log(result2);
 
-
+// filter
 let bigger = numbers.filter(x => x > 4)
 console.log(bigger);
